@@ -1,0 +1,21 @@
+jenkins:
+  systemMessage: "<H3>Instanz des Workshops \"Jenkins Pipeline\"</H3>"
+  numExecutors: 3
+  scmCheckoutRetryCount: 0
+  mode: NORMAL
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  slaveAgentPort: 0
+  quietPeriod: 0
+
+unclassified:
+  simple-theme-plugin:
+    elements:
+    - cssUrl:
+        url: "https://cdn.rawgit.com/afonsof/jenkins-material-theme/gh-pages/dist/material-green.css"
+

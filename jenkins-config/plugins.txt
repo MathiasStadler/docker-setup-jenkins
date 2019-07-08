@@ -1,0 +1,4 @@
+simple-theme-plugin:latest
+cloudbees-folder:latest
+configuration-as-code:latest
+configuration-as-code-support:latest
