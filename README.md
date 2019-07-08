@@ -116,6 +116,13 @@ docker swarm leave
 https://www.manifold.co/blog/arguments-and-variables-in-docker-94746642f64b
 ```
 
+## docker run
+
+```bash
+docker run -d -v jenkins_home_two:/var/jenkins_home -p 8080:8080 -p 50000:50000 stadler/jenkins
+```
+
+
 ## docker housekeeping
 
 ```bash
